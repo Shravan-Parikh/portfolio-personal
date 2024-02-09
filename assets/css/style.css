@@ -11,13 +11,33 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 6px solid #36454F; 
   border-radius: 50% !important;
 }
 
 .profile-pic img {
   width: 100%;
   height: auto;
+}
+
+.quote {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 18px;
+  color: #f3ebeb; /* Change to your preferred color */
+  margin: 20px 0; /* Adjust margin as needed */
+}
+.quote-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.author {
+  display: flex;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 5px; /* Adjust margin as needed */
+  align-items:flex-end;
 }
 
 .tracker {
@@ -85,7 +105,7 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #00796b;
+  color: #002c79;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -200,7 +220,7 @@ nav i {
 } */
 
 main {
-  background: url(../../assets/img/bg.png) repeat;
+  background: url(../../assets/image/bggg.png) repeat;
   padding-left: 190px;
 }
 
@@ -320,7 +340,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #3c464d repeat;
   position: relative;
 }
 
@@ -543,13 +563,14 @@ small {
 }
 
 .grey-text {
-  color: #666 !important;
+  color: #486ba3 !important;
 }
 
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  /* color: #008073 !important; */
+  color: #36454F !important;
 }
 
 /* .teal-text {
@@ -559,7 +580,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #36454F !important;
 }
 
 /* .teal {
